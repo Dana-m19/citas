@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f1f1;
+    padding: 20px;
+  }
+
+  /*estilo del  boton de regreso*/
+ 
+.back_button{
+
+  background-color: #8A7F79;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.back_button:hover{
+
+  background-color: #798ad491;
+}
+
+
+
+/*estilo del contenido en columnas*/
+  
+  .todo {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .columna1 {
+    flex: 1;
+    max-width: 40%;
+    margin-top: 7%;
+  }
+  
+  .columna2 {
+    flex: 1;
+    max-width: 50%;
+    margin-top: 6%;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #000000;
+  }
+  
+  p {
+    text-align: center;
+    color: #000000;
+    text-align: justify;
+  }
+  
+  form {
+    background-color: #003cff4f;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #141414;
+    margin-left: 13px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="time"],
+  button[type="submit"] {
+    width: 85%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+        margin-left: 13px;
+
+  }
+  
+  button[type="submit"] {
+    background-color: #020a80;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 22px;
+  }
+  
+
+  .mensaje-error {
+    background-color: #ff0b0b59;
+    border: 1px solid #ccc;
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .mensaje-exito{
+    background-color: #1500fd6e;
+    border: 1px solid #ccc;
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+  }

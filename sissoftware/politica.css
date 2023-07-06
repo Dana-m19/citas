@@ -1,0 +1,158 @@
+/* styles.css */
+
+/* Estilos generales */
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  
+  }
+  
+  
+  
+  
+  /* estilo Encabezado */
+  header {
+    background-color: #084185;
+    color: #fff;
+    padding: 20px;
+    font-size: large;
+  
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav {
+    text-align: right;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  nav ul li {
+    display: inline;
+  
+    margin-left: 5px;
+  
+  }
+  
+  nav a {
+    transition: color 0.1s ease;
+  }
+  
+  nav a:hover {
+    color: #43A3EA;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #367AAD;
+  }
+  
+  nav ul li:first-child {
+    margin-left: 0;
+  }
+  
+  /* Banner */
+  .banner img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.contenido{
+
+    text-align: justify;
+    margin: 100px;
+}
+
+
+
+
+  /*estilo para el  footer*/
+footer {
+    background-color: #c5daf53f ;
+    padding: 40px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  
+  }
+  .menu-links a:hover{
+    color: black;
+  }
+  .social-media a:hover{
+    color: black;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+  
+  .company-info,
+  .social-media,
+  .menu-links,
+  .contact-info {
+     padding: 20px;
+     text-align: justify;
+     font-size: large;
+    
+  }
+  footer a{
+     text-decoration: none;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  
+  .bottom-footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para los íconos */
+  i {
+    margin-right: 10px;
+  }

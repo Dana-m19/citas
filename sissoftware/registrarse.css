@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    
+      font-family: Arial, sans-serif;
+     background-color: #08408518;
+    
+  }
+  
+/*estilo del  boton de regreso*/
+ 
+.back_button{
+
+  background-color: #8A7F79;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: auto;
+}
+.back_button:hover{
+
+  background-color: #798ad491;
+}
+  
+  h1 {
+    text-align: center;
+    color: #000000;
+  }
+  
+  .form1 {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ffffffc7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #030303;
+    margin-left: 13px;
+
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  input[type="time"] {
+    width: 85%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-left: 13px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+   
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2a38ffcb;
+    border-radius: 3px solid rgba(0, 47, 255, 0.133); 
+  }
+  
+  .mensaje-exito {
+    color: green;
+    margin-bottom: 10px;
+  }
+  
+  .mensaje-error {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+/*DISEÑO DEL FORMULARIO*/
+
+  .form1 label {
+  display: inline-block;
+  width: auto; 
+  text-align: right;
+  
+}
+
+.form1 input[type="text"],
+.form1 input[type="email"],
+.form1 select {
+  width: 90%; 
+  padding: 9px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 10px;
+  
+  
+}
+
+.form1 button[type="submit"] {
+  margin-left: 8px; 
+  padding: 10px 20px;
+}
+

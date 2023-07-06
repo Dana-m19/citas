@@ -1,0 +1,319 @@
+/* styles.css */
+
+/* Estilos generales */
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+
+}
+
+/*estilo  del  mensaje  de  envio del formulario*/
+.mensaje {
+  color: red;
+  font-weight: bold;
+}
+
+
+
+
+/* estilo Encabezado */
+header {
+  background-color: #084185;
+  color: #fff;
+  padding: 20px;
+  font-size: large;
+
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  text-align: right;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav ul li {
+  display: inline;
+
+  margin-left: 5px;
+
+}
+
+nav a {
+  transition: color 0.1s ease;
+}
+
+nav a:hover {
+  color: #43A3EA;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: transparent;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #367AAD;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+/* Banner */
+.banner img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 0 20px;
+  color: #084185;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Servicios */
+.services h2 {
+  color: #084185;
+}
+
+.services img {
+
+  width: 30%;
+  height: 30%;
+  margin: 20px;
+}
+
+.tabla-img {
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 70%;
+  border-collapse: collapse;
+
+}
+
+.tabla-img td {
+  text-align: center;
+  padding: 10px;
+  width: 50%;
+  height: 70%;
+}
+
+.tabla-img td img {
+  width: 100%;
+  height: 100%;
+}
+
+.tabla-img a {
+  text-decoration: none;
+  color: black;
+}
+
+.tabla-img a:hover {
+  color: #084185;
+}
+
+.border-img {
+  border-radius: 2%;
+}
+
+/*estilo para el  footer*/
+footer {
+  background-color: #c5daf53f ;
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+}
+.menu-links a:hover{
+  color: black;
+}
+.social-media a:hover{
+  color: black;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.company-info,
+.social-media,
+.menu-links,
+.contact-info {
+   padding: 20px;
+   text-align: justify;
+   font-size: large;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.bottom-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Estilos para los íconos */
+i {
+  margin-right: 10px;
+}
+
+
+/*estilo la seccion sobre nosotros*/
+section#nosotros {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: large;
+}
+
+section#nosotros h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+section#nosotros .mission-vision {
+  display: flex;
+  flex-basis: 50%;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+section#nosotros .mission,
+section#nosotros .vision {
+  flex-basis: 100%;
+}
+
+section#nosotros .experience,
+section#nosotros .statistics {
+  flex-basis: 50%;
+}
+
+section#nosotros .experience p,
+section#nosotros .statistics p {
+  margin-top: 10px;
+}
+
+section#nosotros .statistics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ 
+
+
+}
+
+section#nosotros .stat {
+  flex-basis: 20%;
+  display: block;
+}
+
+.stat {
+  padding: 20px;
+  display: inline;
+}
+
+
+
+/*estilos seccion de boton de agendamento*/
+
+.booking {
+  padding: 50px;
+  text-align: center;
+  margin: 50px;
+}
+
+.booking button {
+  padding: 70px;
+  text-align: center;
+
+}
+
+.booking .boton{
+  border-radius: 100px;
+  border-bottom: black solid 4px;
+  width: 70 px;
+  height:5px;
+  text-align: center;
+  font-style: oblique;
+}
+.menu-links a{
+  text-decoration: none;
+}
+
+.spinner-grow {
+  color: rgba(0, 0, 0, 0.637);
+}
+
+/*diseño del formulario en footer de pagina principals*/
+
+
+
+#calificacion .container {
+  max-width: 500px;
+  margin-right: 20px;
+  padding: 20px;
+  background-color:  #0d2c8136;
+  color: black;
+  font-size: large;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.container button:hover{
+  background-color: #b1d1fa;
+  color: black;
+
+
+}
